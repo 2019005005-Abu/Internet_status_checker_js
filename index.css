@@ -1,0 +1,32 @@
+*{
+    box-sizing: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    border: 1px solid red;
+    width: 400px;
+    text-align: center;
+    padding: 5px 10px;
+    display: flex;
+    align-items:center ;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 200px;
+    background-color: white;
+    border: none;
+    box-shadow: 2px 3px  black;
+    border-radius: 5px;
+   
+}
+
+body{
+    background-color: blueviolet;
+}
+
+.container:hover{
+    background-color: beige;
+    
+}
